@@ -1,1 +1,1 @@
-The adopted traffic volume dataset 'PeMS-Bay' is preprocessed and zipped in the file 'PEMS_bay_2018.7z', and the distance-based adjacency graphs is also provided. Please first unzip 'PEMS_bay_2018.7z' and then put it in the 'data' folder.
+The adopted traffic volume dataset 'PeMS-Bay' is preprocessed and zipped in the file 'PEMS_bay_2018.7z', and the distance-based adjacency graphs is also provided. Please first unzip 'PEMS_bay_2018.7z' and then put it in the 'data/PeMS-Bay-2018' folder.
