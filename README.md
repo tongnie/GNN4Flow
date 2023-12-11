@@ -2,7 +2,7 @@
 **[Update] Our paper has been accepted for publication in Transportation Research Part C, and the model implementations will be open-sourced soon!**
 
 📝
-> This is the code repository for our publication "[Towards better traffic volume estimation: Jointly addressing the underdetermination and nonequilibrium problems with correlation-adaptive GNNs](https://doi.org/10.1016/j.trc.2023.104402)" that is published on Transportation Research Part C.
+> This is the code repository for our publication [''Towards better traffic volume estimation: Jointly addressing the underdetermination and nonequilibrium problems with correlation-adaptive GNNs''](https://doi.org/10.1016/j.trc.2023.104402) that is published on Transportation Research Part C.
 
 
 ## Acknowledgement
