@@ -5,4 +5,5 @@ This is the code repository for our submission "Towards better traffic volume es
 
 
 ## Acknowledgement
-Our implementations are built on top of the IGNNK repository.
+Our implementations are built on top of the IGNNK repository. 
+https://github.com/Kaimaoge/IGNNK.
