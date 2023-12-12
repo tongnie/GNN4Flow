@@ -12,8 +12,26 @@
 - Inductive training:
   ![image](https://github.com/tongnie/GNN4Flow/assets/97451044/2d3998da-47ef-4e21-987b-c6f2bbe29673)
 
+## Run
+- We provide the Pytorch implementation of proposed STCAGCN in 'model.py' file.
+- A pretrained model is provided in the 'check_point' folder.
+- A JupyterNotebook demonstration of data loading, preprocessing, model configuration, training, evaluating, and visualizing is provided in 'run_STCAGCN.ipynb'.
 
+## Citation
+Please cite our paper if this repository is helpful for your study.
+> @article{nie2023towards,
+  title={Towards better traffic volume estimation: Jointly addressing the underdetermination and nonequilibrium problems with correlation-adaptive GNNs},
+  author={Nie, Tong and Qin, Guoyang and Wang, Yunpeng and Sun, Jian},
+  journal={Transportation Research Part C: Emerging Technologies},
+  volume={157},
+  pages={104402},
+  year={2023},
+  publisher={Elsevier}
+}
 
 ## Acknowledgement
 Our implementations are built on top of the IGNNK repository:
 https://github.com/Kaimaoge/IGNNK.
+
+## License
+This project is released under the MIT license.
