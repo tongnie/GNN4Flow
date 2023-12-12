@@ -4,6 +4,7 @@
 > This is the code repository for our publication [''Towards better traffic volume estimation: Jointly addressing the underdetermination and nonequilibrium problems with correlation-adaptive GNNs''](https://doi.org/10.1016/j.trc.2023.104402) that is published on Transportation Research Part C.
 
 ## Motivation
+This project studies two key problems with regard to traffic volume estimation: (1) underdetermined traffic flows caused by fully undetected paths that can allow arbitrary volume values without violating the conservation law, where using local side information is insufficient to tackle, and (2) nonequilibrium traffic flows arise when traffic flows vary in density over space and time due to congestion propagation delay, which produce time-shifted volume readings to varying degrees.
 ![image](https://github.com/tongnie/GNN4Flow/assets/97451044/8d860e5d-8b60-46bd-9f19-72b52c648428)
 
 ## Methodology
