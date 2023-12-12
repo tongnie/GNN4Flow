@@ -10,9 +10,10 @@ This project studies two key problems with regard to traffic volume estimation: 
 ## Methodology
 - Model structure:
   ![image](https://github.com/tongnie/GNN4Flow/assets/97451044/55605685-ceb6-4211-bd8a-884ebac7ee20)
-  This figure shows the holistic architecture of STCAGCN. It consists of two basic components: (1) spatial information aggregation block for alleviating underdetermined problem with learned speed-volume relationships. (2) time-asynchronous correlations extraction      block for coping with nonequilibrium flows
+  This figure shows the holistic architecture of STCAGCN. It consists of two basic components: (1) spatial information aggregation block for alleviating underdetermined problem with learned speed-volume relationships. (2) time-asynchronous correlations extraction      block for coping with nonequilibrium flows.
 - Inductive training:
   ![image](https://github.com/tongnie/GNN4Flow/assets/97451044/2d3998da-47ef-4e21-987b-c6f2bbe29673)
+  We model the traffic volume estimation problem as a spatial-temporal kriging problem. GNNs are trained like a masked autoencoder, which can perform estimation at unseen locations during testing.
 
 ## Run
 - We provide the Pytorch implementation of proposed STCAGCN in 'model.py' file.
